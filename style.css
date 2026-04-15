@@ -14,6 +14,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  width: 50%;
+  margin: auto;
 }
 
 .title {
@@ -24,6 +27,7 @@ body {
   border-radius: 0 0 1rem 1rem;
 }
 
+<<<<<<< HEAD
 table {
     border-collapse: collapse;
     border: 2px solid rgb(140 140 140);
@@ -64,3 +68,38 @@ table {
   tfoot td {
     font-weight: bold;
   }
+=======
+form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+label {
+    padding: 1rem;
+    font-weight: bold;
+    color: var(--yale-blue);
+}
+
+.totals {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> feat/ajout_formulaire_selection
